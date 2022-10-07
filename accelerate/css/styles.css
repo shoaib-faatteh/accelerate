@@ -1,0 +1,54 @@
+/* all
+*/
+body {
+    display: grid;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+/* canvas
+*/
+canvas {
+    border: 1px solid lightgrey;
+    margin-top: 10%;
+}
+
+
+/* button
+*/
+button {
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+button:hover {
+    background-color: #e2e2e2;
+}
+
+button:active {
+    background-color: #f0f0f0;
+}
+
+/* footer
+*/
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #282a35;
+    width: 100%;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
